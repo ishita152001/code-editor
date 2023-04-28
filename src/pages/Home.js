@@ -29,7 +29,7 @@ const Home = () => {
   };
 
   const handleInputEnter = (e) => {
-    console.log("event", e.code);
+    console.log("event", e.code); //checking the key pressed  
     if(e.code === 'Enter')
     {
       joinRoom();
